@@ -2,3 +2,4 @@ data/.*
 rlt/.*
 *.ipynb
 .idea/
+.DS_Store
