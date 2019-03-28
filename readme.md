@@ -19,7 +19,7 @@ cat filename # show contents of filename
 
 环境：python 2.7 
 
-Modules: os, multiprocessing, pandas, glob, sys 
+Modules: multiprocessing, pandas, glob, sys 
 
 
 
