@@ -13,13 +13,14 @@ cat filename // show contents of filename
 
 环境：python 2.7 
 
-packages: os, multiprocessing, pandas, glob, sys 
+Modules: os, multiprocessing, pandas, glob, sys 
 
 
 
 ##### 使用
+试验的DNA数据存在data/文件夹下，结果存储在rlt/下。
 
-打开terminal, 在frog目录下（里面有自文件夹data存放试验数据）执行命令：
+打开terminal, 在FrogFinder目录下执行命令。每次执行程序时候保证rlt/文件夹下的结果已经转存到别处，该文件夹需为空的。
 
 ```bash
 python DNA_RNA_Finder.py shRNA.csv
