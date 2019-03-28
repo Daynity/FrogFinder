@@ -24,9 +24,9 @@ Modules: multiprocessing, pandas, glob, sys
 
 
 ##### 使用
-试验的DNA数据存在**data/**文件夹下，结果存储在**rlt/**下。
+试验的DNA数据存在 data/ 文件夹下，结果存储在 rlt/ 下。
 
-打开terminal, 在FrogFinder目录下执行命令。每次执行程序时候保证**rlt/**文件夹下的结果已经转存到别处，该文件夹需为空的。
+打开terminal, 在FrogFinder目录下执行命令。每次执行程序时候保证 rlt/ 文件夹下的结果已经转存到别处，该文件夹需为空的。
 
 ```bash
 mkdir data  # create a folder for data 
