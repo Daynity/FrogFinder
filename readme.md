@@ -10,7 +10,15 @@ ls   # show all files
 head -n 2 filename  # show first 2 lines of the file 
 tail -n 2 filename  # show last 2 lines of the file
 
-cat filename # show contents of filename 
+cat filename # show contents of filename
+
+pwd 
+
+git clone <https://github.com/Daynity/FrogFinder>
+
+# ACTIVATE venv 
+source bin/activate
+ 
 ```
 
 

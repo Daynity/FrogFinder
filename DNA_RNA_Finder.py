@@ -17,7 +17,7 @@ def find_matched_dna_partial(rna_val, dna_filename_nofolder, dna, index_min, ind
     return None
 
 
-def find_matched_dna(rna_val, dna_filename, poolnum=6):
+def find_matched_dna(rna_val, dna_filename, poolnum=4):
     dna = pd.read_csv(dna_filename, sep='\n', header=None)
     dna_filename_nofolder = dna_filename.replace('data/', '')
     pool = multiprocessing.Pool(processes=poolnum)
