@@ -18,6 +18,8 @@ git clone <https://github.com/Daynity/FrogFinder>
 
 # ACTIVATE venv 
 source bin/activate
+
+jupyter notebook
  
 ```
 
