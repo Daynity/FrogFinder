@@ -62,6 +62,7 @@ print(len(fq_filenames))
 
 
 cnt = 0
+batch_id = 0
 for rna in ls_rna:
     for fq_filename in fq_filenames:
         ss = "awk '/{rna}/{left_bra} print $0 {right_bra}' {fq_filename} > rlt/{rna}.{fq_filename_nofolder}.txt".format(
@@ -70,6 +71,9 @@ for rna in ls_rna:
             left_bra="{",
             right_bra="}",
             fq_filename_nofolder=fq_filename.replace('new_data/', ''))
-
-        with open('run_awk_find.sh', 'a') as the_file:
+        filename = 'run_awk_find{}.sh'.format(batch_id)
+        with open(filename, 'a') as the_file:
             the_file.write(ss+'\n')
+        cnt += 1
+        if cnt % 2000 == 0:
+            batch_id += 1

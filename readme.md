@@ -46,3 +46,10 @@ python DNA_RNA_Finder.py shRNA.csv
 # shRNA.csv 是我们要找的RNA文件 
 ```
 
+some tools for processing strings: 
+https://askubuntu.com/questions/587264/how-to-find-lines-matching-a-pattern-and-delete-them
+sed
+awk 
+perl
+grep
+....
